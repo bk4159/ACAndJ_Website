@@ -1,0 +1,39 @@
+body { 
+    background: url("../DSC05090.JPG") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*Navigation bar*/
+#pageNav {
+    background-color: #d49a48;
+    font-weight: bold;
+}
+.navbar-brand {
+    font-style: italic;
+}
+.bi-envelope-fill {
+    /* adjust icon placement */
+    position: relative;
+    top: 4px;
+}
+
+.content {
+    margin-top: 30vh;
+    margin-bottom: 10vh;
+    background-color: #ffdfb5;
+    border-radius: 30px;
+}
+#emailLink {
+    -ms-word-break: break-all;
+    word-break: break-all;
+
+    /* Non standard for WebKit */
+    word-break: break-word;
+
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
