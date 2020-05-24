@@ -1,0 +1,27 @@
+/* Photo by Brian McMahon on Unsplash */
+body {
+    background: url("../images/brian-mcmahon-u5EdZMmIjfs-unsplash.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*Navigation bar*/
+#pageNav {
+    background-color: #d49a48;
+}
+
+.colVerticalCenter {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#welcomeText {
+    font-size: 10vw;
+}
+.navButtons {
+    text-decoration: underline;
+}
+.collage {
+    max-width: 200px;
+}
