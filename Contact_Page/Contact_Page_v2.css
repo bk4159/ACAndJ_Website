@@ -8,7 +8,7 @@ body {
 }
 
 /*Navigation bar*/
-#pageNav {
+.navbar {
     background-color: #d49a48;
 }
 .bi-envelope-fill {
@@ -22,10 +22,13 @@ body {
     margin-bottom: auto;
 }
 .content {
-    background-color: #ffdfb5;
+    border: 5px solid #ffffff;
     border-radius: 30px;
 }
-#emailLink {
+.contactTextColour {
+    color: #d49a48;
+}
+.longWord {
     -ms-word-break: break-all;
     word-break: break-all;
 

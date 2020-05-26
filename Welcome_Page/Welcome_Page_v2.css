@@ -1,6 +1,6 @@
-/* Photo by Brian McMahon on Unsplash */
+/* Photo by Lore Schodts on Unsplash */
 body {
-    background: url("../images/brian-mcmahon-u5EdZMmIjfs-unsplash.jpg") no-repeat center center fixed; 
+    background: url("../images/lore-schodts-lot7hGhPRQ4-unsplash.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -8,7 +8,7 @@ body {
 }
 
 /*Navigation bar*/
-#pageNav {
+.navbar {
     background-color: #d49a48;
 }
 
@@ -16,8 +16,11 @@ body {
     margin-top: auto;
     margin-bottom: auto;
 }
-#welcomeText {
+.titleText {
     font-size: 10vw;
+}
+.textOverline {
+    text-decoration: overline;
 }
 .navButtons {
     text-decoration: underline;
