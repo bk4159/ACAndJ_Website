@@ -12,6 +12,9 @@ body {
     background-color: #d49a48;
 }
 
+.titleText {
+    font-size: 7vw;
+}
 .colVerticalCenter {
     margin-top: auto;
     margin-bottom: auto;
@@ -19,26 +22,5 @@ body {
 .content {
     border: 5px solid #ffffff;
     border-radius: 30px;
-}
-.titleText {
-    font-size: 3rem;
-}
-.bi-envelope-fill {
-    /* adjust icon placement */
-    position: relative;
-    top: 4px;
-}
-.contactTextColour {
-    color: #d49a48;
-}
-.longWord {
-    -ms-word-break: break-all;
-    word-break: break-all;
-
-    /* Non standard for WebKit */
-    word-break: break-word;
-
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
+    max-width: 300px;
 }
