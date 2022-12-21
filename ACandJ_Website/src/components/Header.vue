@@ -10,27 +10,26 @@
           isContact: false
         };
       },
+      watch:{
+        $route() {
+          this.switchNav();
+        }
+      },
       methods: {
-        switchNav(navNum) {
-          //highlight proper navigation
-          switch(navNum) {
-            case 1:
-              this.isHome = true;
-              this.isProducts = false;
-              this.isContact = false;
-              break;
-            case 2:
-              this.isHome = false;
-              this.isProducts = true;
-              this.isContact = false;
-              break;
-            case 3:              
-              this.isHome = false;
-              this.isProducts = false;
-              this.isContact = true;
-              break;
-            default:
-              break;
+        switchNav() {
+          const path = this.$route.fullPath;
+          if (path == "/") {
+            this.isHome = true;
+            this.isProducts = false;
+            this.isContact = false;
+          } else if (path.includes("/products")) {
+            this.isHome = false;
+            this.isProducts = true;
+            this.isContact = false;
+          } else if (path.includes("/contact")) {
+            this.isHome = false;
+            this.isProducts = false;
+            this.isContact = true;
           }
         },
       },
@@ -38,8 +37,8 @@
         
       },
       mounted() {
-        //highlight proper navigation
-        this.switchNav(1);
+        //navigation default is home
+        this.switchNav();
       }
     }
 
@@ -47,39 +46,42 @@
 
 <template>
   <nav class="navbar">
-    <div class="homeLink">
-      <a class="navButton" @click="switchNav(1)"><h1>African Crafts & Jewellery</h1></a>
+    <div class="homeLink centeredColumn">
+      <router-link to="/" class="navButton"><h1>African Crafts & Jewellery</h1></router-link>
     </div>
   
-    <div class="navLinks">
-      <a class="navButton" @click="switchNav(1)"><h3 :class="{ inactive: !isHome }">Home</h3></a>
-      <a class="navButton" @click="switchNav(2)"><h3 :class="{ inactive: !isProducts }">Products</h3></a>
-      <a class="navButton" @click="switchNav(3)"><h3 :class="{ inactive: !isContact }">Contact</h3></a>
+    <div class="navLinks centeredColumn">
+      <router-link to="/" class="navButton"><h3 :class="{ inactive: !isHome }">Home</h3></router-link>
+      <router-link to="/products" class="navButton"><h3 :class="{ inactive: !isProducts }">Products</h3></router-link>
+      <router-link to="/contact" class="navButton"><h3 :class="{ inactive: !isContact }">Contact</h3></router-link>
     </div>
   </nav>
 </template>
 
-<style scoped>
-  /*Navigation bar*/
-  .navbar {
-      background-color: #db9336;
-      padding: 1.5rem;
-      overflow: auto;
+<style scoped>  
+  .collageImg {
+    width: 70%;
+    min-width: 200px;
   }
-  .homeLink {
-    float: left;
+  .navbar {
+    background-color: #db9336;
+    padding: 1.5rem;
+    display: flex;
+  }
+  .centeredColumn {
+    flex: 50%;
   }
   .homeLink h1 {
     font-style: italic;
-    cursor: pointer;
   }
-  .navLinks {
-    float: right;
-  }
-  .navLinks .navButton {
+  .navButton {
     display: inline-block;
     margin: 0 1rem;
-    cursor: pointer;
+    color: black;
+    text-decoration: none;
+  }
+  .navLinks {
+    text-align: end;
   }
   .inactive {
     font-weight: lighter;

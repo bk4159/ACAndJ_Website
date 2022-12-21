@@ -21,9 +21,9 @@
 </script>
 
 <template>
-  <p>Home</p>
+<p>Contact</p>
 </template>
 
 <style scoped>
-   
+    
 </style>
