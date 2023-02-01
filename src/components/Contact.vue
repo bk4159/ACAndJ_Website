@@ -1,25 +1,3 @@
-<script>
-    export default {
-      props: {
-        
-      },
-      data() {
-        return {
-        };
-      },
-      methods: {
-        
-      },
-      setup(props) {
-        
-      },
-      mounted() {
-        
-      }
-    }
-
-</script>
-
 <template>
   <div class="contactRow col p-2 text-center text-white content colVerticalCenter">
     <div class="contactBox">

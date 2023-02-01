@@ -1,25 +1,3 @@
-<script>
-    export default {
-      props: {
-        
-      },
-      data() {
-        return {
-        };
-      },
-      methods: {
-        
-      },
-      setup(props) {
-        
-      },
-      mounted() {
-        
-      }
-    }
-
-</script>
-
 <template>
   <div class="products">
     <div class="productCard" v-for="n in 10">

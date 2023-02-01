@@ -1,25 +1,3 @@
-<script>
-    export default {
-      props: {
-        
-      },
-      data() {
-        return {
-        };
-      },
-      methods: {
-        
-      },
-      setup(props) {
-        
-      },
-      mounted() {
-        
-      }
-    }
-
-</script>
-
 <template>
   <div class="row">
     <div class="centeredColumn textWhite">

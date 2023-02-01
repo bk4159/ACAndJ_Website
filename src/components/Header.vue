@@ -1,8 +1,5 @@
 <script>
     export default {
-      props: {
-        
-      },
       data() {
         return {
           isHome: false,
@@ -33,15 +30,11 @@
           }
         },
       },
-      setup(props) {
-        
-      },
       mounted() {
         //navigation default is home
         this.switchNav();
       }
     }
-
 </script>
 
 <template>
