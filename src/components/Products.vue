@@ -1,7 +1,7 @@
 <template>
   <div class="products">
     <div class="productCard" v-for="n in 10">
-      <img src="../assets/img/IMG_1566.JPG" alt="Picture of African craft or jewellery" class="cardImg"/>
+      <img src="../assets/img/IMG_1566.jpg" alt="Picture of African craft or jewellery" class="cardImg"/>
       <h2 class="cardText">Name</h2>
       <h2 class="cardText priceText">$Price</h2>
     </div>

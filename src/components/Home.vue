@@ -11,16 +11,16 @@
     </div>
     <div class="centeredColumn paddedColumn">
       <div class="imagesRow">
-        <img src="../assets/img/IMG_1566.JPG" alt="Picture of African craft or jewellery" class="collageImg"/>
-        <img src="../assets/img/IMG_1566.JPG" alt="Picture of African craft or jewellery" class="collageImg"/>
+        <img src="../assets/img/IMG_1566.jpg" alt="Picture of African craft or jewellery" class="collageImg"/>
+        <img src="../assets/img/IMG_1566.jpg" alt="Picture of African craft or jewellery" class="collageImg"/>
       </div>
       <div class="imagesRow">
-        <img src="../assets/img/IMG_1566.JPG" alt="Picture of African craft or jewellery" class="collageImg"/>
-        <img src="../assets/img/IMG_1566.JPG" alt="Picture of African craft or jewellery" class="collageImg"/>
+        <img src="../assets/img/IMG_1566.jpg" alt="Picture of African craft or jewellery" class="collageImg"/>
+        <img src="../assets/img/IMG_1566.jpg" alt="Picture of African craft or jewellery" class="collageImg"/>
       </div>
       <div class="imagesRow">
-        <img src="../assets/img/IMG_1566.JPG" alt="Picture of African craft or jewellery" class="collageImg"/>
-        <img src="../assets/img/IMG_1566.JPG" alt="Picture of African craft or jewellery" class="collageImg"/>
+        <img src="../assets/img/IMG_1566.jpg" alt="Picture of African craft or jewellery" class="collageImg"/>
+        <img src="../assets/img/IMG_1566.jpg" alt="Picture of African craft or jewellery" class="collageImg"/>
       </div>
     </div>
   </div>  
